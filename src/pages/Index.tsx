@@ -94,7 +94,7 @@ const Index = () => {
           <div className="flex justify-between items-center">
             <div className="flex items-center space-x-2">
               <Brain className="h-8 w-8 text-blue-400" />
-              <span className="text-xl font-bold text-white">AI Solutions</span>
+              <span className="text-xl font-bold text-white">Prisma Research</span>
             </div>
             <div className="hidden md:flex space-x-8">
               <a href="#services" className="text-slate-300 hover:text-blue-400 transition-colors">Services</a>
@@ -314,11 +314,16 @@ const Index = () => {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center space-x-2 mb-4 md:mb-0">
               <Brain className="h-6 w-6 text-blue-400" />
-              <span className="text-lg font-semibold text-white">AI Solutions</span>
+              <span className="text-lg font-semibold text-white">Prisma Research</span>
             </div>
-            <p className="text-slate-400 text-center md:text-right">
-              © 2024 AI Solutions. Pioneering the future of artificial intelligence.
-            </p>
+            <div className="text-center md:text-right">
+              <p className="text-slate-400">
+                © 2024 Prisma Research SAGL. Pioneering the future of artificial intelligence.
+              </p>
+              <p className="text-slate-500 text-sm mt-1">
+                CHE-287.951.944 | Swiss Società a Garanzia Limitata
+              </p>
+            </div>
           </div>
         </div>
       </footer>
